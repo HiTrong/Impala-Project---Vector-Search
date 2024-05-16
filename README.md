@@ -15,6 +15,7 @@
 
 ## 2. Triển khai Project
 - Ta cần khởi động máy ảo **Cloudera QuickStartVM** cùng các service và lấy địa chỉ IP của máy ảo 
+
 ![Ảnh máy ảo Cloudera QuickStartVM](./images/cloudera1.png)
 ![Ảnh máy ảo Cloudera QuickStartVM](./images/cloudera2.png)
 
@@ -22,6 +23,7 @@
 > - Kết nối với Impala bằng gói thư viện Impyla 
 > - Vector hóa dữ liệu, chuyển thành file parquet và đẩy vào database 
 > - Xây dựng hệ thống truy vấn so sánh vector - Vector Search 
+
 ![Ảnh Jupyter Notebook](./images/jupyter1.png)
 ![Ảnh Jupyter Notebook](./images/jupyter2.png)
 ![Ảnh Jupyter Notebook](./images/jupyter3.png)
@@ -29,10 +31,13 @@
 ![Ảnh Jupyter Notebook](./images/jupyter5.png)
 
 - Mở **demoApp.py** bằng **streamlit run** để xem demo App
+
 ![Ảnh demo App streamlit](./images/appdemo1.png)
+
 ![Ảnh demo App streamlit](./images/appdemo2.png)
 
 - Cách thức hoạt động của **Vector Search Program**
+
 ![Ảnh sơ đồ](./images/diagram.png)
 
 ## 3. Kết luận
